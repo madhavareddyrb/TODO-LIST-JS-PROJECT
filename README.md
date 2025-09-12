@@ -1,9 +1,13 @@
 ## Todo Project
 
 steps:
+
 1.Get all elemets what we need and assign them with const variables
+
 const todoInput = document.getElementById("todo-input");
+
 const addTaskButton = document.getElementById("add-task-btn");
+
 const todoList = document.getElementById("todo-list");
 
 2.for tasks create an array for all tasks
