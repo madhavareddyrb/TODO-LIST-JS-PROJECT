@@ -41,4 +41,5 @@ value) both must be in strings.
 
 16. To get or render task localStorage.getItem(tasks) here is a catch that we have stored in json form and to convert from string json format to normal array we use JSON.parse let tasks = JSON.parse(localStorage.getItem("tasks"))|| [];
 
-17.Go to console in browser checks the following steps how its working.For local storage inspect->application->loaclStorage
+17.Go to console in browser checks the following steps how its working.
+For local storage inspect->application->loaclStorage
