@@ -24,15 +24,12 @@ addTaskButton.addEventListener("click", () => {
 
 
 function renderTask(task){
-  console.log(task);
-  console.log(task.text);
   const li = document.createElement("li");
   li.setAttribute("data_id", task.id);
   if (task.completed) li.classList.add('completed');
   li.innerHTML = `
   <span>${task.text} </span>
   <button>delete</button>
-
   `;
   li.addEventListener('click',(e) => {
     if (e.target.tagName === "BUTTON") return;
