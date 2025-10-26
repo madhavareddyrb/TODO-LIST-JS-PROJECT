@@ -92,16 +92,3 @@ li button {
 li button:hover {
   background-color: #b71c1c;
 }
-
-li.edit {
-  background-color: blueviolet;
-  border: none;
-  padding: 5px;
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-li.edit:hover {
-  background-color: violet;
-}
